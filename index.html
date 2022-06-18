@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0px 0px 0px 0px;
+        }
+        
+        h1 {
+            font-weight: 1500;
+        }
+        
+        p {
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: solid rgba(139, 139, 139, 0.306) 1px;
+        }
+        
+        .inputbox {
+            width: 40%;
+            font-size: medium;
+            border-radius: 3px;
+            border: 1px solid rgba(139, 139, 139, 0.306);
+            padding: 8px;
+            margin: 0px;
+        }
+        
+        h1 {
+            padding: 50px;
+            text-align: center;
+        }
+        
+        h1>span {
+            color: blue;
+        }
+        
+        .text {
+            padding: 30px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30px;
+            justify-content: space-even;
+        }
+        
+        .but1 {
+            margin-right: 20px;
+            cursor: pointer;
+            background-color: blue;
+            padding: 10px;
+            font-size: larger;
+            color: white;
+            font-weight: 300;
+            border-radius: 6px;
+            border: 1px solid blue;
+            transition: background-color 0.5s;
+        }
+        
+        .but1:hover {
+            background-color: aliceblue;
+            color: blue;
+            border: 1px solid rgba(139, 139, 139, 0.306);
+        }
+        
+        .but2 {
+            margin-left: 20px;
+            cursor: pointer;
+            background-color: white;
+            padding: 10px;
+            font-size: larger;
+            color: blue;
+            font-weight: 300;
+            border-radius: 6px;
+            border: 1px solid rgba(139, 139, 139, 0.306);
+            transition: background-color 0.5s;
+        }
+        
+        .but2:hover {
+            background-color: blue;
+            color: rgb(255, 255, 255);
+        }
+        
+        .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .sec {
+            width: 25%;
+        }
+        
+        iframe {
+            height: 250px;
+        }
+        
+        img {
+            margin-top: 23px;
+            border-radius: 6px;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid rgba(139, 139, 139, 0.306);
+            padding: 5px;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        .footer {
+            display: flex;
+            margin-top: 10px;
+            padding: 20px;
+            justify-content: center;
+        }
+        
+        a {
+            margin-left: 10px;
+            margin-right: 10px
+        }
+        
+        .hh {
+            font-weight: 600;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>
+            <span class="hh">Alcheringa WebOps</span>
+        </p>
+        <input type="text" placeholder="Search crow idhar" class="inputbox">
+        <p>
+            <span style="cursor: pointer;" class="hh">Home</span><span> | </span ><span style="cursor: pointer;" class="hh"> About</span><span> | </span><span style="cursor: pointer;" class="hh"> Contact</span>
+        </p>
+    </div>
+    <div class="heading">
+        <h1>Lorem ipsum dolor <span>Lorem ipsum</span></h1>
+    </div>
+    <div class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate harum praesentium, pariatur laboriosam dignissimos asperiores esse eius quos distinctio ut cum molestias aperiam eveniet, dicta possimus itaque odit. Corrupti!
+    </div>
+    <div class="buttons">
+        <button class="but1">Button 1</button>
+        <button class="but2">Button 2</button>
+    </div>
+    <div class="content">
+        <div class="sec">
+            <p style="font-weight: bold;">HTML Formatting</p>
+            <p style="font-style:italic;">This is an italic text</p>
+            <p>This text is <span style="background-color:yellow ;">highlighted</span> </p>
+            <p>This is a <sub>subscript</sub> and a <sup>superscript</sup></p>
+            <p>"This is quotation"</p>
+            <p><del>This is done using del tag</del></p>
+            <p>HTML Table</p>
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+            </table>
+        </div>
+        <div class="sec">
+            <p style="font-weight: bold;">HTML iFrames</p>
+            <iframe src="https://alcheringa.in/" title="iframe" scrolling="yes" width="100%"></iframe>
+        </div>
+        <div class="sec">
+            <img src="55-557580_8k-hd-wallpapers-backgrounds-images-high-resolution-beautiful.jpg" width="100%">
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/alcheringaiitg"> Facebook </a><span> | </span ><a href="https://www.instagram.com/alcheringaiitg/"> Instagram </a><span> | </span><a href="https://www.youtube.com/c/alcheringaiitg"> Youtube </a>
+    </div>
+</body>
+
+</html>
